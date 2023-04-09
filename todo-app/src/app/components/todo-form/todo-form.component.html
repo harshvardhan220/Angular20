@@ -1,0 +1,12 @@
+<div class="input-group mb-3 w-100">
+    <input type="text" name="todo" id=""
+    placeholder="Enter a Todo"
+    class="form-control"
+    [(ngModel)]="todoTitle"
+    />
+<div class="input-group-append">   
+      <button 
+      (click)="newTodo()"
+      class="btn-primary">Add Todo</button>
+</div>
+</div>
